@@ -4,10 +4,11 @@ The following results have been provided for Linear Start, Positional Encoding, 
 
 The dataset used is babI https://research.fb.com/downloads/babi/ (1k english training samples)
 
+## Loss curves
 ![image](https://user-images.githubusercontent.com/4141117/40680834-3e441660-633c-11e8-91ff-ccc35317c75c.png)
 
 The following are the results on the test set.
-
+## Test Results
 
 Task  |  Training Acc.  
 ------|-----------------
@@ -32,3 +33,12 @@ Task  |  Training Acc.
 19    |  0.11           
 20    |  0.97           
 mean  |  0.706           
+
+## Instructions to run the code:
+1. Download the babI dataset from the link provided above.
+2. Unzip/untar the folder to generate 'tasks_1-20_v1-2' folder in current directory
+3. Use dataproc.py to generate pickle files
+4. Or directly use the pickle files
+5. Run trainer.py to initialize the model, commence training, print graphs and report the mean accuracy.
+
+

@@ -40,5 +40,6 @@ mean  |  0.706
 3. Use dataproc.py to generate pickle files
 4. Or directly use the pickle files
 5. Run trainer.py to initialize the model, commence training, print graphs and report the mean accuracy.
+6. Notebook files have also been provided for ease of access.
 
 
